@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb6a7457-15d1-4489-b779-5198115e5b3f" name="Default Changelist" comment="" />
+    <list default="true" id="eb6a7457-15d1-4489-b779-5198115e5b3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rss/templates/all_rounder_ranking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rss/templates/bowling_ranking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rss/templates/team_ranking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rss/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/rss/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rss/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rss/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rss/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rss/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,34 +24,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+            <state relative-caret-position="121">
+              <caret line="773" column="16" selection-start-line="773" selection-start-column="4" selection-end-line="773" selection-end-column="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#20109#22279#0" />
+                <element signature="e#22604#24375#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rss/templates/matches.html">
+        <entry file="file://$PROJECT_DIR$/rss/templates/team_ranking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+            <state relative-caret-position="272">
+              <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
               <folding>
-                <element signature="e#861#898#0#HTML" expanded="true" />
-                <element signature="e#861#886#0#HTML" expanded="true" />
-                <element signature="e#1707#1751#0#HTML" expanded="true" />
+                <element signature="e#1937#1983#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rss/templates/scorecard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="187" selection-start-line="187" selection-end-line="187" />
             </state>
           </provider>
         </entry>
@@ -51,22 +50,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss/templates/Scores.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+            <state relative-caret-position="-313">
+              <caret line="232" column="18" lean-forward="true" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
               <folding>
-                <element signature="e#2579#2640#0#HTML" expanded="true" />
+                <element signature="e#2805#2854#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rss/templates/reader.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rss/templates/batting_ranking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2895">
-              <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+            <state relative-caret-position="30">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               <folding>
-                <element signature="e#6949#6974#0#HTML" expanded="true" />
+                <element signature="e#1941#1987#0#HTML" expanded="true" />
+                <element signature="e#2592#2619#0#HTML" expanded="true" />
+                <element signature="e#3408#3435#0#HTML" expanded="true" />
+                <element signature="e#4393#4420#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -84,23 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rss/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RSSREADER/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-              <folding>
-                <element signature="e#633#665#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="226">
+              <caret line="122" column="18" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -136,25 +126,36 @@
       <find>Last Overs Details</find>
       <find>teams_</find>
       <find>cscore_date</find>
+      <find>cb-col cb-col-100 cb-font-14 cb-lst-itm text-center</find>
+      <find>cb-col cb-col-100 cb-font-14 cb-brdr-thin-btm text-center</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rss/templates/a.html" />
         <option value="$PROJECT_DIR$/rss/templates/templatetags.py" />
-        <option value="$PROJECT_DIR$/RSSREADER/settings.py" />
         <option value="$PROJECT_DIR$/rss/templates/schedule_details.html" />
         <option value="$PROJECT_DIR$/rss/templatetags/my_filters.py" />
-        <option value="$PROJECT_DIR$/rss/views.py" />
         <option value="$PROJECT_DIR$/rss/templates/about.html" />
-        <option value="$PROJECT_DIR$/rss/urls.py" />
         <option value="$PROJECT_DIR$/rss/templates/scorecard.html" />
-        <option value="$PROJECT_DIR$/RSSREADER/urls.py" />
         <option value="$PROJECT_DIR$/rss/templates/matches.html" />
-        <option value="$PROJECT_DIR$/rss/templates/base.html" />
         <option value="$PROJECT_DIR$/rss/templates/reader.html" />
         <option value="$PROJECT_DIR$/rss/templates/Scores.html" />
+        <option value="$PROJECT_DIR$/ScreenRecorder.py" />
+        <option value="$PROJECT_DIR$/RSSREADER/urls.py" />
+        <option value="$PROJECT_DIR$/RSSREADER/settings.py" />
+        <option value="$PROJECT_DIR$/RSSREADER/wsgi.py" />
+        <option value="$PROJECT_DIR$/rss/templates/batting_ranking.html" />
+        <option value="$PROJECT_DIR$/rss/templates/bowling_ranking.html" />
+        <option value="$PROJECT_DIR$/rss/templates/all_rounder_ranking.html" />
+        <option value="$PROJECT_DIR$/rss/views.py" />
+        <option value="$PROJECT_DIR$/rss/urls.py" />
+        <option value="$PROJECT_DIR$/rss/templates/team_ranking.html" />
+        <option value="$PROJECT_DIR$/rss/templates/base.html" />
       </list>
     </option>
   </component>
@@ -164,11 +165,13 @@
     <option name="width" value="676" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,17 +179,27 @@
               <item name="RSSREADER" type="b2602c69:ProjectViewProjectNode" />
               <item name="RSSREADER" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RSSREADER" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSREADER" type="462c0819:PsiDirectoryNode" />
+              <item name="rss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSSREADER" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSREADER" type="462c0819:PsiDirectoryNode" />
+              <item name="rss" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ivo_studio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -254,12 +267,21 @@
       <workItem from="1562130199598" duration="22451000" />
       <workItem from="1562216924109" duration="24883000" />
       <workItem from="1562301404337" duration="20951000" />
-      <workItem from="1562563259651" duration="691000" />
+      <workItem from="1562563259651" duration="5617000" />
+      <workItem from="1562649827392" duration="13980000" />
     </task>
+    <task id="LOCAL-00001" summary="Add batting ranking">
+      <created>1562663892812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562663892813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201202000" />
+    <option name="totallyTimeSpent" value="220108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,23 +294,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29482073" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.29960158" />
+      <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.29960158" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4996016" visible="true" weight="0.27357033" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4996016" visible="true" weight="0.35968992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921174" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32868218" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003984" side_tool="true" weight="0.4168013" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32921174" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32921174" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32868218" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,6 +345,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add batting ranking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add batting ranking" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -336,48 +363,48 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>rec.find(&quot;a&quot;, {&quot;class&quot;: [&quot;icon-font-before collapsed&quot;]})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>i</expression-string>
         <language-id>HTML</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>date</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>details_player</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>teams</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>(image1['source'])</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>note</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>(img['src'] or img['source'])</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>teams_s</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>(img['src'] and img['source'])</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>rec</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>(img['src'] ) or (img['source'])</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data['score_details'][0] == ''</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>(img['src'] )or (img['source'])</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data['score_details'][0]</expression-string>
-        <language-id>HTML</language-id>
+        <expression-string>(img['src'], img['source'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(img['source'])</expression-string>
+        <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
@@ -428,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../env/lib/python3.6/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="741" selection-start-line="741" selection-end-line="741" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rss/templates/a.html" />
     <entry file="file://$PROJECT_DIR$/rss/templatetags/templatetags.py" />
     <entry file="file://$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/template/base.py">
@@ -448,13 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RSSREADER/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
@@ -489,16 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rss/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenRecorder.py" />
     <entry file="file://$PROJECT_DIR$/rss/templates/matches.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -518,20 +522,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rss/templates/reader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <element signature="e#6949#6974#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSSREADER/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/lib/python3.6/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11115">
+          <caret line="743" selection-start-line="743" selection-end-line="743" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSSREADER/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSSREADER/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#225#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/lib/python3.6/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1015" selection-start-line="1015" selection-end-line="1015" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rss/templates/Scores.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        <state relative-caret-position="-313">
+          <caret line="232" column="18" lean-forward="true" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
           <folding>
-            <element signature="e#2579#2640#0#HTML" expanded="true" />
+            <element signature="e#2805#2854#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss/templates/batting_ranking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="e#1941#1987#0#HTML" expanded="true" />
+            <element signature="e#2592#2619#0#HTML" expanded="true" />
+            <element signature="e#3408#3435#0#HTML" expanded="true" />
+            <element signature="e#4393#4420#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss/templates/bowling_ranking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-end-line="211" selection-end-column="14" />
+          <folding>
+            <element signature="e#1937#1983#0#HTML" expanded="true" />
+            <element signature="e#2620#2647#0#HTML" expanded="true" />
+            <element signature="e#3495#3522#0#HTML" expanded="true" />
+            <element signature="e#4421#4448#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="773" column="16" selection-start-line="773" selection-start-column="4" selection-end-line="773" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#20109#22279#0" />
+            <element signature="e#22604#24375#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss/templates/all_rounder_ranking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#1937#1983#0#HTML" expanded="true" />
+            <element signature="e#2620#2647#0#HTML" expanded="true" />
+            <element signature="e#3495#3522#0#HTML" expanded="true" />
+            <element signature="e#4421#4448#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss/templates/team_ranking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+          <folding>
+            <element signature="e#1937#1983#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rss/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -540,28 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rss/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RSSREADER/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rss/templates/reader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2895">
-          <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
-          <folding>
-            <element signature="e#6949#6974#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="122" column="18" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="18" />
         </state>
       </provider>
     </entry>
