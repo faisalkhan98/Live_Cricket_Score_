@@ -9,6 +9,7 @@ urlpatterns = [
     path('scorecard/', views.scorecard, name="scorecard"),
     path('schedule/', views.schedule, name="schedule"),
     path('match_details/', views.match_details, name="match_details"),
+    path('batting_ranking/', views.batting_ranking, name="batting_ranking"),
 
 
 ]

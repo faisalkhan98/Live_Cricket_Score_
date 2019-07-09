@@ -4,7 +4,7 @@
     {% load staticfiles %}
 
     <meta charset="UTF-8">
-{#   #}
+    {#   #}
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -16,6 +16,7 @@
         body {
             background: #eee;
         }
+
         body, h1, h2, h3, h4, h5, h6 {
             font-family: "Lato", sans-serif
         }
@@ -31,6 +32,70 @@
         {#.title{#}
         {#    background-image:url("/static/image/cwc-default-thumbnail.png") ;#}
         {##}
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: white;
+            color: black;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
     </style>
     {% block styleBlock %}
 
@@ -44,8 +109,20 @@
            href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
                 class="fa fa-bars"></i></a>
         <a href="/rss/" class="w3-bar-item w3-button w3-padding-large w3-white">Live Matches</a>
-{#        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Live Score</a>#}
+        {#        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Live Score</a>#}
         <a href="/schedule/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Schedule</a>
+        <div class="dropdown">
+            <button class="dropbtn">Ranking
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/batting_ranking/">Batting</a>
+                <a href="#">Bowling</a>
+                <a href="#">All-rounders</a>
+                <a href="#">Teams</a>
+            </div>
+        </div>
+{#        <a href="/schedule/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ranking</a>#}
         <a href="/about/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
         {#        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"></a>#}
     </div>

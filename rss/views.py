@@ -616,3 +616,54 @@ def matches(link):
 
 def about(request):
     return render(request, 'about.html')
+
+
+def batting_ranking(request):
+    link = "https://www.cricbuzz.com/cricket-stats/icc-rankings/men/batting"
+    data = batting_ranking2(link)
+    return render(request, 'batting_ranking.html', {"data": data})
+
+
+def batting_ranking2(link):
+    session = requests.Session()
+    content = session.get(link, verify=False).content
+    soup = BeautifulSoup(content, "html.parser")
+    div = soup.findAll("div", {"class":["cb-col cb-col-100 cb-font-14 cb-lst-itm text-center"]})
+    details_player = []
+    for rec in div:
+        player = {}
+        position = rec.find("div", {"class": ["cb-col cb-col-16 cb-rank-tbl cb-font-16"]})
+        if position:
+            player['position'] = rec.find("div", {"class": ["cb-col cb-col-16 cb-rank-tbl cb-font-16"]}).text
+
+        # image_div = rec.findAll("div", {"class": ["cb-col cb-col-50"]})[1:2]
+        # if image_div:
+        #     for i in image_div:
+        #         img = i.find("img")
+        #         if img:
+        #             player['img'] = (img['src'] or img['source'])
+        #             # if img_src:
+        #             # player['img'] = (img_src['src'])
+        #             # else:
+        #             #     player['img'] = (img['source'])
+        image = rec.find("img", {"class": ["img-responsive cb-rank-plyr-img"]})
+        image1 = rec.find("img", {"class": ["img-responsive"]})
+        if image:
+            player['img'] = (image['src'])
+        elif image1:
+            player['img'] = (image1['source'])
+
+        rating = rec.find("div", {"class": ["cb-col cb-col-17 cb-rank-tbl pull-right"]})
+        if rating:
+            player['rating'] = rec.find("div", {"class": ["cb-col cb-col-17 cb-rank-tbl pull-right"]}).text
+
+        player_name = rec.find("a", {"class": ["text-hvr-underline text-bold cb-font-16"]})
+        if player_name:
+            player['player_name'] = rec.find("a", {"class": ["text-hvr-underline text-bold cb-font-16"]}).text
+
+        team_name = rec.find("div", {"class": ["cb-font-12 text-gray"]})
+        if team_name:
+            player['team_name'] = rec.find("div", {"class": ["cb-font-12 text-gray"]}).text
+
+        details_player.append(player)
+    return details_player
