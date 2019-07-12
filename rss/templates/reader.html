@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
+
+{% load static %}
 {% block head %}
     <title>Live Score</title>
+    <script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+    <link href="{% static 'css/app.css' %}" rel="stylesheet" />
+
 {% endblock %}
 {% block styleBlock %}
     <style>
@@ -150,6 +156,7 @@
 {% endblock %}
 
 {% block body %}
+
     <div class="">
         <div>
             <p class="heading">Live Score</p>
@@ -172,6 +179,15 @@
                     <div class="details">
                         <form id="myForm" action="{% url 'rss:info' %}" method="post" enctype="multipart/form-data">
                             {% csrf_token %}
+                            {% if rec.date == 'MATCH DELAYED BY RAIN' %}
+                                <canvas class="rainCanvas" width="588" height="230">Canvas Not Supported! Please
+                                    Update Your Browser to the Latest Version.
+                                </canvas>
+                                <div class="flashDiv"></div>
+                                <img id="raindrop1" src="{% static 'image/raindrop1.png' %}" width="0" height="0">
+                                <img id="raindrop2" src="{% static 'image/raindrop2.png' %}" width="0" height="0">
+                                <img id="raindrop3" src="{% static 'image/raindrop3.png' %}" width="0" height="0">
+                            {% endif %}
                             <h4 style="color: red; margin-left: 5%; ">{{ rec.date }}</h4>
                             <p style=" margin-left: 5%;">{{ rec.title }}</p>
                             <p style="margin-left: 5%;">{{ rec.note }}</p>
@@ -273,9 +289,9 @@
                 document.getElementById('myForm').submit();
             });
         });
-        window.setTimeout(function () {
-            location.href = "/rss/";
-        }, 20000);
+        {#window.setTimeout(function () {#}
+        {#    location.href = "/rss/";#}
+        {#, 10000);#}
 
 
         {#var append_increment = 0;#}
